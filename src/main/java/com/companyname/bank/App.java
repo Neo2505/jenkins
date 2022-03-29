@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "change is temporary" );
+        System.out.println( "this is poll scm" );
     }
 }
