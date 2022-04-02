@@ -4,7 +4,7 @@
   <groupId>com.companyname.bank</groupId>
   <artifactId>consumerBanking</artifactId>
   <packaging>jar</packaging>
-  <version>9.0-SNAPSHOT</version>
+  <version>10.0-SNAPSHOT</version>
   <name>consumerBanking</name>
   <url>http://maven.apache.org</url>
   <build>
@@ -24,6 +24,11 @@
 	<groupId>org.apache.maven.plugins</groupId>
 	<version>3.2.2</version>
       </plugin>  
+    <plugin>
+	<artifactId>maven-install-plugin</artifactId>
+	<groupId>org.apache.maven.plugins</groupId>
+	<version>3.0</version>
+      </plugin>
     </plugins>
   </build>
 <properties>
