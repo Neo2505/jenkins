@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "this is build remotely" );
+        System.out.println( "this is poll scm" );
     }
 }
